@@ -14,6 +14,8 @@
 	<name>blogs</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
+	    <sonar.organization>tesa</sonar.organization>
+
 		<java.version>17</java.version>
 		<spring-cloud.version>2023.0.0</spring-cloud.version>
 	</properties>
@@ -77,6 +79,7 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+
 
 	<build>
 		<plugins>
